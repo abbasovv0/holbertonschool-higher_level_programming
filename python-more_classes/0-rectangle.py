@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-class Rectangle:
+"""This is documentation for the Rectangle class."""
 
-def __init__(self):
-        """Initialize the Rectangle with an empty dictionary."""
-        self.dict_ = {}
+
+class Rectangle:
+    """This is documentation for class"""
+    pass
