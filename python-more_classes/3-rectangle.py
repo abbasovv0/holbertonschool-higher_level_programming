@@ -47,11 +47,10 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return 0
         return 2 * (self.__width + self.__height)
+
     def __str__(self):
-        """return str"""
-        str = ""
+        """Return the rectangle with #"""
         if self.__width == 0 or self.__height == 0:
-            return str
-        for _ in range(self.__height):
-            str = "#" * self.__width
-        return str
+            return ""
+        # Hər sətri width qədər # ilə yazır, height qədər sətr var
+        return "\n".join("#" * self.__width for _ in range(self.__height))
