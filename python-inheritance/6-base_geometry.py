@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-"""this module documented"""
-
+"""This module defines the BaseGeometry class."""
 
 
 class BaseGeometry:
-	"""CLASS IS DOCUMENTED"""
+    """BaseGeometry class documentation."""
+
     def area(self):
+        """Public instance method that raises an exception."""
         raise Exception("area() is not implemented")
