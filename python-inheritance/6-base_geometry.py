@@ -5,5 +5,5 @@
 
 class BaseGeometry:
 	"""CLASS IS DOCUMENTED"""
-	def area(self):
-		raise Exception("area() is not implemented")
+    def area(self):
+        raise Exception("area() is not implemented")
