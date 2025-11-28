@@ -2,7 +2,6 @@
 """this module documented"""
 
 
-
 class BaseGeometry:
 	"""CLASS IS DOCUMENTED"""
 	pass
