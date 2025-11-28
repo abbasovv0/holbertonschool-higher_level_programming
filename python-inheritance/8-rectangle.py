@@ -1,15 +1,15 @@
 #!/usr/bin/python3
-"""this module documented"""
+"""document"""
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 
 class Rectangle(BaseGeometry):
-	"""CLASS IS DOCUMEMNTED"""
+    """document"""
 
-	def __init__(self, width, height):
-		"""DOCUMENTED"""
-		self.integer_validator("width", width)
-        	self.integer_validator("height", height)
+    def __init__(self, width, height):
+        """document"""
+        self.integer_validator("width", width)
+        self.integer_validator("height", height)
 
-        	self.__width = width
-        	self.__height = height
+        self.__width = width
+        self.__height = height
