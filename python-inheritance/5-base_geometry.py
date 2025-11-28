@@ -4,4 +4,5 @@
 
 
 class BaseGeometry:
+	"""CLASS IS DOCUMENTED"""
 	pass
