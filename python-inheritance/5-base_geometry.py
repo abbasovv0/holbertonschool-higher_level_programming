@@ -1,7 +1,9 @@
 #!/usr/bin/python3
-"""this module documented"""
+"""
+This module defines the BaseGeometry class.
+"""
 
 
 class BaseGeometry:
-	"""CLASS IS DOCUMENTED"""
-	pass
+    """BaseGeometry class documentation."""
+    pass
