@@ -1,2 +1,2 @@
 -- COMMNET
-SELECT COUNT(*) FROM table_name;
+SELECT COUNT(*) FROM first_table WHERE id = 89;
