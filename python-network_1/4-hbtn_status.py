@@ -2,7 +2,8 @@
 """DOCUMENTED."""
 
 import requests
-response = requests.get('https://intranet.hbtn.io/status')
+url = 'https://intranet.hbtn.io/status'
+response = requests.get(url)
 
 print(f"Body response:")
 print(f"\t - type: {type(response.text)}")
