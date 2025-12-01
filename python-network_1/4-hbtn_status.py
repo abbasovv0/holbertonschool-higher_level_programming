@@ -5,5 +5,5 @@ import requests
 response = requests.get('https://intranet.hbtn.io/status')
 
 print(f"Body response:")
-print(f"/t - type: {type(responce)}")
-print(f"/t - content:{html}")
+print(f"\t - type: {type(response.txt)}")
+print(f"\t - content:{response.txt}")
