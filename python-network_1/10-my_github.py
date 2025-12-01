@@ -17,7 +17,7 @@ def main():
         json_data = response.json()
         print(json_data.get("id"))
     else:
-        print(f"Error: {response.status_code}")
+        print("Error: Invalid credentials")
 
 
 if __name__ == "__main__":
