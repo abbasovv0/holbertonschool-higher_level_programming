@@ -6,8 +6,8 @@ import requests
 
 
 def main():
-    username = sys.argv[1]  # GitHub username
-    token = sys.argv[2]     # Personal access token
+    username = sys.argv[1]
+    token = sys.argv[2]
 
     url = "https://api.github.com/user"
 
