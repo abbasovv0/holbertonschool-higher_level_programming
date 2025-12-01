@@ -1,11 +1,14 @@
 #!/usr/bin/python3
-"""Fetches a URL and displays the X-Request-Id header value."""
+"""
+DOCUMENTED
+"""
 
 import sys
 import urllib.request
 
 
 def main():
+    """DOCUMENTED"""
     url = sys.argv[1]
 
     with urllib.request.urlopen(url) as response:
@@ -16,4 +19,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
