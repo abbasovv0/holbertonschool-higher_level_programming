@@ -1,13 +1,13 @@
 #!/usr/bin/python3
-"""Displays your GitHub user id using Basic Authentication."""
+"""DOC."""
 
 import sys
 import requests
 
 
 def main():
-    username = sys.argv[1]
-    token = sys.argv[2]
+    username = sys.argv[1]  # GitHub username
+    token = sys.argv[2]     # Personal access token
 
     url = "https://api.github.com/user"
 
